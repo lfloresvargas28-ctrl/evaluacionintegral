@@ -1,0 +1,88 @@
+/* Para todos */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid .row .col ul li{
+    list-style-type: none;
+    margin: 5px;
+    color: white;
+}
+.container-fluid .row .col ul li a{
+    color: white;
+}
+nav.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+/* index */
+.carousel-inner img{
+    height: 400px;
+}
+#index .col{
+    border-radius: 10px;
+}
+#index .col img{
+    width: 70%;
+}
+#index .col h4, p{
+    text-align: center;
+}
+/* nosotros.html */
+.scrollspy-example{
+    max-height: 400px;
+    overflow: auto;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px 20px ;
+}
+/* tienda.tml */
+.card{
+    margin: 20px;
+}
+.botones{
+    display: flex;
+    justify-content: space-between;
+}
+.botones a{
+    width: 100px;
+    height: 38px;
+    font-size: 0.9em;
+}
+.oferta{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    width: 34%;
+    font-size: 0.8em;
+    padding: 4px;
+    text-align: center;
+}
+/* contacto.html */
+.modal-body i{
+    color: green;
+}
+iframe{
+    margin: auto;
+    width: 100%;
+}
+.mapa{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+}
+/* noticias.html */
+#exito-tab i{
+    color: green;
+}
+#critico-tab i{
+    color: red;
+}
+#aviso-tab i{
+    color: yellow;
+}
